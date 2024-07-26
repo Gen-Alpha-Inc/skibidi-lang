@@ -1,0 +1,8 @@
+[package]
+name = "skibidi-lang"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+inkwell = {git = "https://github.com/TheDan64/inkwell", branch = "master", features = ["llvm18-0-no-llvm-linking"] } # Since the latest inkwell release does not have llvm18, and I use no-llvm-linking as it wouldn't build without it, no matter how much I suffered'
+logos = "0.14.0"
