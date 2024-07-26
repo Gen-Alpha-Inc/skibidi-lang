@@ -1,5 +1,6 @@
 # Skibidi Lang
-- My way of using LLVM for fun, this time for a real project (sorry Chris Lattner)
+- My way of using LLVM for fun, this time for a real project unlike "c"lang or "r"ust (sorry Chris Lattner)
+  - LLVM hasn't been added yet, I am currently in the process of doing so because I have never really used rust before.
 - This is an extremely serious, memory-safe, production-ready language. Meant only for the MOST SERIOUS DEVELOPERS. Everyone else should use Rust, a language notorious for no learning curve (I cannot use Rust).
 
 ## Language Spec
