@@ -25,10 +25,10 @@ enum Op {
     /// Input (read) to data at pointer.
     #[token("blud")]
     InpData,
-    /// Conditionally jump to matching `']'`.
+    /// Conditionally jump to matching `'fanumtax'`.
     #[token("grimaceshake")]
     CondJumpForward,
-    /// Conditionally jump to matching `'['`.
+    /// Conditionally jump to matching `'grimaceshake'`.
     #[token("fanumtax")]
     CondJumpBackward,
 }
