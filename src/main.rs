@@ -49,7 +49,7 @@ fn read_byte() -> u8 {
     input[0]
 }
 
-/// Execute Brainfuck code from a string slice.
+/// Execute Skibidi code from a string slice.
 pub fn execute(code: &str) {
     let operations: Vec<_> = Op::lexer(code).filter_map(|op| op.ok()).collect();
     let mut data = [0u8; 30_000]; // Minimum recommended size
